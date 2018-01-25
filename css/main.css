@@ -1,0 +1,233 @@
+/*
+Theme Name: website
+Description: personal website for rachel lin
+Version: 1.0
+Author: Rachel Lin
+Author URI: rachell.in
+*/
+
+
+body {
+  background-color: #FCFCFC;
+  margin: 0 auto;
+  font-family: "Helvetica Nue", sans-serif;
+}
+
+div {
+  display: block;
+}
+
+.menu {
+  width:100%;
+  top: 0;
+  height: 70px;
+  padding: 20px;
+  box-sizing: border-box;
+  position: fixed;
+  background-color: #FCFCFC;
+  z-index: 1;
+}
+
+.pages {
+  font-size: 14px;
+  font-family: 'Merriweather';
+  font-style: bold;
+  padding: 10px 30px;
+  margin: auto;
+  text-decoration: none;
+  color: #212121;
+  float: right
+}
+
+.intro{
+  height: 250px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  border-width: 0.1px;
+  border-style: ridge none;
+  margin-bottom: 45px;
+  padding-bottom: 30px;
+}
+
+.intro h1{
+  font-family: "Merriweather";
+  font-size: 36px;
+  font-weight: 900;
+  padding-top: 30px;
+}
+
+.intro h2 {
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 2.8;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  max-height: 300px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.side {
+  opacity: 0.9;
+  position: relative;
+}
+
+.side:hover .overlay {
+  opacity: 0.7;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #FFFFFF;
+}
+
+.text {
+  color: black;
+  font-size: 18px;
+  font-family: "Helvetica Neue";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.me {
+  margin: auto;
+  display: block;
+}
+
+.copy {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.title {
+  position: sticky;
+  top: 250px;
+  width: 20%
+
+}
+
+.title h1{
+  font-family: 'Merriweather';
+  text-align: right;
+  margin: auto;
+}
+
+
+.aboutme {
+  width: 70%;
+}
+
+p {
+  text-align: left;
+  line-height: 4;
+  max-width: 500px;
+  font-size: 14px;
+}
+
+a{
+  color: black;
+}
+
+.justspace {
+  width: 100%;
+  height: 15%;
+}
+
+.funcopy {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+iframe {
+  margin: auto;
+  display: block;
+}
+
+.graphic {
+  margin-top: 500px;
+  margin:auto;
+}
+
+.section h1 {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Merriweather"
+}
+
+.foodmoves {
+  display: flex;
+  justify-content: space-evenly;
+  height: 300px;
+  width: 80%;
+  margin: auto;
+}
+.foodmoves .works {
+  margin: auto;
+  height: 94%
+}
+
+.idx {
+  display: flex;
+  justify-content: space-evenly;
+  height: 250px;
+  width: 80%;
+  margin: auto;
+}
+.idx .works {
+  max-height: 80%;
+  margin: auto;
+}
+
+.decal {
+  display: flex;
+  justify-content: space-evenly;
+  height: 700px;
+  width: 100%;
+  margin: auto;
+}
+
+.decal .works {
+  max-height: 90%;
+  margin: auto;
+}
+
+.webveloper .works{
+  height: 90%
+}
+
+.fashion {
+  display: flex;
+  justify-content: space-evenly;
+  height: 400px;
+  width: 60%;
+  margin: auto;
+}
+.fashion .works {
+  max-height: 90%;
+  margin: auto;
+}
