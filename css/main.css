@@ -110,6 +110,7 @@ div {
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-start;
+  margin-bottom: 100px;
 }
 
 .title {
@@ -153,16 +154,22 @@ a{
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-start;
+  margin-bottom: 100px;
 }
 
 iframe {
   margin: auto;
   display: block;
+  margin-bottom: 100px;
 }
 
 .graphic {
   margin-top: 500px;
   margin:auto;
+}
+
+.section {
+  margin-top: 150px;
 }
 
 .section h1 {
