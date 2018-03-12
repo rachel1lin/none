@@ -289,14 +289,20 @@ iframe {
 .decal {
   display: flex;
   justify-content: space-evenly;
-  height: 700px;
-  width: 100%;
+  height: 1000px;
+  width: 75%;
   margin: auto;
+  padding-bottom: 200px;
 }
 
 .decal .works {
   max-height: 90%;
   margin: auto;
+}
+
+.decal p {
+  min-width: 350px;
+  margin: 30px;
 }
 
 .fashion {
