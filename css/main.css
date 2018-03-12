@@ -210,7 +210,6 @@ div {
   margin-bottom: 30px;
   display: block;
   margin: auto;
-
 }
 
 .person p {
@@ -313,12 +312,16 @@ iframe {
   margin: auto;
 }
 
-
 .fashion .works {
   max-height: 90%;
   margin: auto;
 }
 
+.section p{
+  width: 800px;
+  margin: auto;
+  margin-bottom: 50px;
+}
 
 .contactme p {
   margin: auto;
@@ -349,7 +352,6 @@ iframe {
   padding-top: 160px;
   text-align: center;
   height: 100px;
-
 }
 
 .web {
