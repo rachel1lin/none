@@ -70,7 +70,7 @@ div {
 }
 
 .intro{
-  min-height: 250px;
+  min-height: 180px;
   width: 100%;
   margin: auto;
   text-align: center;
@@ -84,7 +84,7 @@ div {
   font-family: "Merriweather";
   font-size: 36px;
   font-weight: 900;
-  padding-top: 30px;
+  max-height: 40px;
 }
 
 .intro h2 {
@@ -112,9 +112,8 @@ div {
   justify-content: center;
   align-items: flex-start;
   align-content: center;
-  max-height: 300px;
+  max-height: 160px;
   margin-top: 70px;
-  margin-bottom: 70px;
 }
 
 .side {
@@ -251,14 +250,47 @@ iframe {
   margin:auto;
 }
 
-.section {
-  margin-top: 100px;
+.row {
+    display: flex;
+    justify-content: space-between;
 }
 
-.section h1 {
+.column {
+    float:left;
+    width: 100;
+    margin-left: 100px;
+}
+
+.left {
+  width: 80%;
+}
+
+.right {
+  width: 20%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.section-title {
+  padding-top: 380px;
+  padding-bottom: 310px;
+  background-image:url('idx-perform.jpg');
+  background-size: contain;
+}
+
+.section-title h1 {
   font-size: 20px;
   text-align: center;
-  font-family: "Merriweather"
+  font-family: "Merriweather";
+  color: #e3e2e2;
+}
+
+.section {
+  margin-top: 50px;
 }
 
 .foodmoves {
@@ -270,7 +302,7 @@ iframe {
 }
 .foodmoves .works {
   margin: auto;
-  height: 94%
+  height: 94%;
 }
 
 .idx {
@@ -307,8 +339,8 @@ iframe {
 .fashion {
   display: flex;
   justify-content: space-evenly;
-  height: 400px;
-  width: 60%;
+  height: 300px;
+  width: 100%;
   margin: auto;
 }
 
@@ -320,7 +352,18 @@ iframe {
 .section p{
   width: 800px;
   margin: auto;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  max-width: 350px;
+}
+
+.image-contactme {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  max-height: 200px;
+  margin-top: 30px;
+  margin-bottom: 150px;
 }
 
 .contactme p {
