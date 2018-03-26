@@ -293,6 +293,14 @@ iframe {
   margin-top: 50px;
 }
 
+.section h1 {
+  margin: auto;
+  font-size: 18px;
+  text-align: center;
+  font-family: "Merriweather";
+
+}
+
 .foodmoves {
   display: flex;
   justify-content: space-evenly;
