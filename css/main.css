@@ -257,7 +257,7 @@ iframe {
 
 .column {
     float:left;
-    width: 100;
+    width: 100px;
     margin-left: 100px;
 }
 
@@ -275,6 +275,33 @@ iframe {
     clear: both;
 }
 
+.row-graphic {
+  display: flex;
+  justify-content: space-between;
+  height: 600px;
+  width: 60%;
+  margin: auto;
+}
+
+.row-graphic:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column-graphic {
+  float: left;
+}
+
+.left-graphic {
+  width: 70%;
+}
+
+.right-graphic {
+  width: 30%;
+}
+
+
 .section-title {
   padding-top: 380px;
   padding-bottom: 310px;
@@ -290,10 +317,11 @@ iframe {
 }
 
 .section {
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
 .section h1 {
+  padding-bottom: 50px;
   margin: auto;
   font-size: 18px;
   text-align: center;
@@ -304,24 +332,39 @@ iframe {
 .foodmoves {
   display: flex;
   justify-content: space-evenly;
-  height: 300px;
-  width: 80%;
+  flex-direction: column;
   margin: auto;
 }
+
 .foodmoves .works {
   margin: auto;
-  height: 94%;
+  height: 30%;
+  margin-bottom: 10px;
+}
+
+.bpr {
+  width: 90%;
+  margin: auto;
+
+}
+
+.bpr .works {
+  margin: auto;
+  width: 100%;
+  max-width: 476px;
+  margin-bottom: 10px;
 }
 
 .idx {
   display: flex;
-  justify-content: space-evenly;
-  height: 250px;
-  width: 80%;
+  justify-content: center;
+  height: 265px;
+  width: 60%;
   margin: auto;
 }
+
 .idx .works {
-  max-height: 80%;
+  max-height: 70%;
   margin: auto;
 }
 
