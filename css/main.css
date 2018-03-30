@@ -294,8 +294,13 @@ iframe {
 }
 
 .left-graphic {
-  width: 70%;
+  width: 600px;
 }
+
+.right-graphic {
+  width: 270px;
+}
+
 
 .section-title {
   padding-top: 380px;
@@ -333,7 +338,7 @@ iframe {
 
 .foodmoves .works {
   margin: auto;
-  height: 30%;
+  width: 76%;
   margin-bottom: 10px;
 }
 
